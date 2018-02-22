@@ -88,14 +88,8 @@ gradle-app.setting
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-.gitignore
-.gradle/
-.idea/
-jedis/
-redis-spring/.gradle/
+
+.idea
+gradle
 redis-spring/build.gradle
 redis-spring/gradle/
-redis-spring/gradlew
-redis-spring/gradlew.bat
-redis-spring/settings.gradle
-redis-spring/src/
