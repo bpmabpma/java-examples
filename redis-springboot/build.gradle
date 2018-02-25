@@ -30,9 +30,8 @@ targetCompatibility = 1.8
 
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter")
-    compile("org.springframework.boot:spring-boot-starter-data-redis")
+    compile "org.springframework.boot:spring-boot-starter-data-redis"
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.16.8'
-    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile "org.springframework.boot:spring-boot-starter-test"
 }
 
