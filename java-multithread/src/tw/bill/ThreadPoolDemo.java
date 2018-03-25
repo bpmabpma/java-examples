@@ -13,5 +13,6 @@ public class ThreadPoolDemo {
             return "future demo";
         });
         System.out.println(future.get());
+        service.shutdown();
     }
 }
